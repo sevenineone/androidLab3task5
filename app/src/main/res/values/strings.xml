@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lab3Task5</string>
+    <string name="app_name">lab2Task2</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -17,4 +17,5 @@
     <string name="to_third">to third</string>
     <string name="activity_3">activity 3</string>
     <string name="about">How are you?</string>
+    <string name="title_about">activity about</string>
 </resources>

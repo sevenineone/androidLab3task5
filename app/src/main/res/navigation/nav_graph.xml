@@ -51,7 +51,7 @@
             app:popUpTo="@id/fr1"
             app:popUpToInclusive="true" />
     </fragment>
-    <action android:id="@+id/menu_about"
+    <action android:id="@+id/act_about"
         app:destination="@+id/about" />
     <activity
         android:id="@+id/about"

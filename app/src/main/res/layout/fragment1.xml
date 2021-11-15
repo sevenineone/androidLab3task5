@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".Fragment1">
+    tools:context=".Fragment1"
+    android:id="@+id/fragment1">
 
     <TextView
         android:id="@+id/textView"
@@ -21,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/toSecond"
+        android:id="@+id/bnToSecond"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/to_second"

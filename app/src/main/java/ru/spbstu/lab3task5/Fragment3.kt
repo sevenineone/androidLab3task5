@@ -19,10 +19,10 @@ class Fragment3 : Fragment() {
     ): View {
         val binding = Fragment3Binding.inflate(layoutInflater)
 
-        binding.toFirst.setOnClickListener {
+        binding.bnToFirst.setOnClickListener {
             navigationController.navigate(R.id.fr3_to_fr1)
         }
-        binding.toSecond.setOnClickListener {
+        binding.bnToSecond.setOnClickListener {
             navigationController.navigate(R.id.fr3_to_fr2)
         }
         setHasOptionsMenu(true)
@@ -36,8 +36,8 @@ class Fragment3 : Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.activity_about -> {
-                navigationController.navigate(R.id.menu_about)
+            R.id.menu_about -> {
+                navigationController.navigate(R.id.act_about)
                 true
             }
             else -> super.onOptionsItemSelected(item)
