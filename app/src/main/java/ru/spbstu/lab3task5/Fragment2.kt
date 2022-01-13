@@ -11,7 +11,7 @@ import android.view.*
 
 
 class Fragment2 : Fragment() {
-    private val navigationController by lazy{ findNavController() }
+    private val navigationController by lazy { findNavController() }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
